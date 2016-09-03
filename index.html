@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mortgage Calculator</title>
+	</head>
+	 <body>
+		<div>
+			<h1>Mortgage Calculator</h1>
+			<label> Loan Balance </label>
+			<input id = "loanBalance" Type = "text">
+			<br><br>
+			<label> Interest Rate (%) </label>
+			<input id = "interestRate" Type = "text">
+			<br><br>
+			<label> Loan Term (Years) </label>
+			<input id = "loanTerm" Type = "text">
+			<br><br>
+			<label> Period </label>
+			<select id = "period">
+			<!-- Create values for monthly and bimonthly periods -->
+			<option value = "Monthly">Monthly</option>
+			<option value = "Bimonthly">Bimonthly</option>
+			</select>
+			<br><br>
+		<button type = "button" id = "btnButtonCalculate">Calculate</button>
+		<p1 id ="p1"></p1>
+		</div>
+		  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  		  crossorigin="anonymous"></script>
+		  <script src = "index.js"></script>
+	 </body>
+</html>
